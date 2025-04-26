@@ -1,7 +1,8 @@
+
 import Header from "./layout/Header"
 import TopNavbar from "./layout/TopNavbar"
- import Home from "./pages/Home"
-
+import Footer from './layout/Footer'
+import Pages from './pages'
 
 export default function App() {
 
@@ -14,8 +15,9 @@ export default function App() {
       <Header />
       
       <TopNavbar />
+      <Pages />
 
-      <Home />
+      <Footer />
     </div>
   )
 }
